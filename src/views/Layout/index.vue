@@ -11,9 +11,8 @@ import { useCategoryStore } from '@/stores/categoryStore'
 import { onMounted } from 'vue'
 
 const categoryStore = useCategoryStore()
+onMounted(() => categoryStore.getCategory())
 
-onMounted(() => categoryStore.getCategory())
-onMounted(() => categoryStore.getCategory())
 </script>
 
 <template>
