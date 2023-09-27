@@ -1,3 +1,5 @@
 <template>
-    Category
+    <div>
+        Category
+    </div>
 </template>
