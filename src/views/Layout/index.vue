@@ -16,6 +16,7 @@ onMounted(() => categoryStore.getCategory())
 </script>
 
 <template>
+
     <LayoutFixed />
     <LayoutNav />
     <LayoutHeader />
