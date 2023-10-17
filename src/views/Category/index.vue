@@ -35,7 +35,7 @@ const { categoryData } = useCategory()
                             <img :src="i.picture" />
                             <p>{{ i.name }}</p>
                         </RouterLink>
-                    </li>
+                    </li> 
                 </ul>
             </div>
             <div class="ref-goods" v-for="item in categoryData.children" :key="item.id">
